@@ -66,7 +66,7 @@ func loginHandler(w http.ResponseWriter, r *http.Request) {
 
 	// 假设登录成功后返回用户信息
 	user := map[string]interface{}{
-		"username": "john_doe",
+		"username": "zhangsan",
 		"email":    "john@example.com",
 	}
 
