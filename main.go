@@ -48,10 +48,6 @@ func homeHandler(w http.ResponseWriter, r *http.Request) {
 }
 
 func registerHandler(w http.ResponseWriter, r *http.Request) {
-	// 实现用户注册逻辑
-	// 这里只是一个示例，实际应用中需要根据具体需求编写注册逻辑
-
-	// 假设注册成功后返回用户信息
 	user := map[string]interface{}{
 		"username": "john_doe",
 		"email":    "john@example.com",
@@ -61,10 +57,6 @@ func registerHandler(w http.ResponseWriter, r *http.Request) {
 }
 
 func loginHandler(w http.ResponseWriter, r *http.Request) {
-	// 实现用户登录逻辑
-	// 这里只是一个示例，实际应用中需要根据具体需求编写登录逻辑
-
-	// 假设登录成功后返回用户信息
 	user := map[string]interface{}{
 		"username": "zhangsan",
 		"email":    "john@example.com",
